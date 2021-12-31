@@ -1,0 +1,42 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  z-index: 10;
+  border-bottom: 0px solid;
+  background-color: #2b2b2b;
+}
+.empty {
+  height: 8px;
+  margin-bottom: 80px;
+}
+.logo {
+ padding: 2px 0;
+ margin-right: 30px;
+ font-size: 1.2rem;
+}
+.logoImg {
+ height: 8px;
+}
+.menuBtn {
+  display: none;
+}
+.menu {
+  display: flex;
+  padding: 6px 0;
+}
+.lists {
+  display: flex;
+  align-items: center;
+}
+.list {
+margin-right: 30px;
+white-space: nowrap;
+list-style: none;
+}

@@ -1,0 +1,26 @@
+.footer {
+    position: relative;
+    padding: 30px 40px 20px;
+    z-index: 10;
+    margin-top: 20px;
+    background-color: #dcdddd;
+  }
+  .lists {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .list {
+    font-size: 12px;
+    list-style :none;
+    }
+  
+  .cr {
+    margin-top: 20px;
+    text-align: center;
+    color: #616269;
+    font-size: 14px;
+    }
+  
